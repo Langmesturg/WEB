@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Smart Time Tracker",
+    "version": "1.0",
+    "description": "Track your time on websites and improve productivity.",
+    "permissions": ["tabs", "storage", "alarms", "notifications"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
